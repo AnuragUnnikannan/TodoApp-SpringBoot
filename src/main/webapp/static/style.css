@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', 'Arial', 'sans-serif'
+}
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-item {
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    background: #02A7F3;
+    height: 8vh;
+}
+
+#caption {
+    margin: auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 208, 0);
+    padding: 60px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+form {
+    width: 70%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#title {
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+}
+
+#description {
+    width: 90%;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 90%;
+}
+
+.btn {
+    background-color: rgb(0, 140, 255);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
+
+#tasks {
+    width: 59%;
+}
+
+#tasks > h2 {
+    text-align: center;
+}
+
+.items {
+    margin: 20px;
+    border-radius: 10px;
+    background: rgb(255, 229, 111);
+    padding: 10px;
+}
+
+.nav-items {
+    margin: 0;
+    height: 100%;
+}
